@@ -1,0 +1,6 @@
+{
+  "main": "../dist/Decoder.cjs",
+  "module": "../dist/Decoder.js",
+  "types": "../dist/Decoder.d.ts",
+  "sideEffects": false
+}

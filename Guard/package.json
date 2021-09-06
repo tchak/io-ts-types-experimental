@@ -1,0 +1,6 @@
+{
+  "main": "../dist/Guard.cjs",
+  "module": "../dist/Guard.js",
+  "types": "../dist/Guard.d.ts",
+  "sideEffects": false
+}
