@@ -1,6 +1,6 @@
 {
   "name": "io-ts-types-experimental",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Paul Chavard <github@paul.chavard.net>",
   "contributors": [
     "Giulio Canti <giulio.canti@gmail.com>"
@@ -42,8 +42,18 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./Decoder": {
+      "import": "./dist/Decoder.js",
+      "require": "./dist/Decoder.cjs"
+    },
+    "./Guard": {
+      "import": "./dist/Guard.js",
+      "require": "./dist/Guard.cjs"
+    }
   },
   "files": [
     "src",
