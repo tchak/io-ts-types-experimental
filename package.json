@@ -1,12 +1,18 @@
 {
   "name": "io-ts-types-experimental",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Paul Chavard <github@paul.chavard.net>",
   "contributors": [
     "Giulio Canti <giulio.canti@gmail.com>"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "fp-ts": "^2.11.0",
+    "io-ts": "^2.2.0"
+  },
   "devDependencies": {
+    "fp-ts": "^2.11.0",
+    "io-ts": "^2.2.0",
     "@types/node": "^16.7.10",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
@@ -29,10 +35,6 @@
     "lint:eslint": "eslint .",
     "lint:tsc": "tsc --noEmit",
     "prepare": "tsc && rollup -c rollup.config.js"
-  },
-  "dependencies": {
-    "fp-ts": "^2.11.1",
-    "io-ts": "^2.2.16"
   },
   "prettier": {
     "singleQuote": true
